@@ -245,7 +245,7 @@ hr {
 }
 
 .content {
-	background: red;
+	/* background: red; */
 	height: 545px;
 
 	display: flex;
@@ -260,6 +260,7 @@ hr {
 @media (max-width: 500px) {
     .content {
         height: 950px;
+        justify-content: space-around;
     }
 }
 
@@ -321,8 +322,8 @@ hr {
 
 @media (max-width: 500px) {
     section {
-        border: 1px solid blue;
-        height: 300px;
+        /* border: 1px solid blue; */
+        height: 120px;
     }
 }
 
